@@ -2,12 +2,15 @@
 
 int main(void)
 {
+
 	int age;
+	float money;
+	char score;
+
 	age = 10000;
-	int money;
-	money = 340;
-	int score;
-	score = 12;
-	printf("%d and %d and %d\n", age, money, score);
+	money = 340.22;
+	score = 's';
+
+	printf("%d and %.2f and %c\n", age, money, score);
 	return (0);
 }
